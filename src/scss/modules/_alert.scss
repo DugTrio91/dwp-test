@@ -1,0 +1,21 @@
+.l-alert {
+  padding: 0.5rem;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
+
+.alert {
+  border-left: 5px solid $error-colour;
+
+  &__title {
+    color: $error-colour;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  &__details {
+    color: $error-colour;
+  }
+}
