@@ -1,0 +1,42 @@
+.l-results {
+  padding: 0 1rem 4rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 75rem;
+  box-sizing: border-box;
+
+  &__count {
+    margin-bottom: 2rem;
+  }
+
+  &__list-result {
+    padding: 2rem 1rem;
+
+    &-name,
+    &-email {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.results {
+  &__count {
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+
+  &__list-result {
+    border-bottom: 1px solid #000;
+
+    &:first-of-type {
+      border-top: 1px solid #000;
+    }
+
+    &-name,
+    &-email {
+      font-size: 1.25rem;
+      line-height: 1.25;
+      word-break: break-all;
+    }
+  }
+}
