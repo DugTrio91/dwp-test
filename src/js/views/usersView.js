@@ -104,6 +104,7 @@ const createButton = (page, type) => `
   </button>
 `;
 
+// Render page count text
 const createPageCount = (page, pages) => `
   <span class="l-search-footer__count search-footer__count">
     Page ${page} of ${pages}
