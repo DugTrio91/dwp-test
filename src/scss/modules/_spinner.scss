@@ -1,0 +1,40 @@
+.spinner,
+.spinner:after {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+}
+
+.spinner {
+  position: relative;
+  border: 0.5rem solid rgba($action-colour, 0.2);
+  border-left: 0.5rem solid $action-colour;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  animation: spin 1s infinite linear;
+  -webkit-animation: spin 1s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
